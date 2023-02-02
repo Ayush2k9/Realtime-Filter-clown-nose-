@@ -1,0 +1,22 @@
+h3 { 
+    font-size: 25px !important;
+}
+#btn1 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color: rgb(255, 81, 0);
+    border-color: orange;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 10px 10px 100px red;}
+    to{box-shadow: 10px 10px 100px yellow;}
+}
